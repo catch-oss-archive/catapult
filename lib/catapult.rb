@@ -3,6 +3,14 @@ require 'sprockets'
 require 'sprockets/commonjs'
 require 'stylus'
 require 'coffee_script'
+require 'sprockets-sass'
+require 'sass'
+require 'compass'
+
+Compass.configuration do |compass|
+  
+end
+
 
 module Catapult
   autoload :CLI, 'catapult/cli'

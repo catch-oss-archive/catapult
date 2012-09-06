@@ -23,4 +23,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'coffee-script', '~> 2.2.0'
   gem.add_dependency 'thor', '~> 0.15.2'
   gem.add_dependency 'thin'
+  gem.add_dependency 'sass'
+  gem.add_dependency 'sprockets-sass'
+  gem.add_dependency 'compass'
 end
