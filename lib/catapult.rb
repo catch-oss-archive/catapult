@@ -6,6 +6,8 @@ require 'coffee_script'
 require 'sprockets-sass'
 require 'sass'
 require 'compass'
+require 'less'
+require 'sprockets-less'
 
 Compass.configuration do |compass|
   

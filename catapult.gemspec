@@ -26,4 +26,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'sass'
   gem.add_dependency 'sprockets-sass'
   gem.add_dependency 'compass'
+  gem.add_dependency 'less'
+  gem.add_dependency 'sprockets-less'
 end
